@@ -1,7 +1,7 @@
 # stenography
 This python script hides (encode) large amount of text in video files and then decode them as well
 
-As for learning stenography and encoding/decoding large text files in the text, I started writing this Python script.
+As for learning stenography and encoding/decoding large text files in the video (as oppose to an image, which is very normal), I started writing this Python script.
 
 Requirements include:
 -> OpenCV
