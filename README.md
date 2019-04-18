@@ -24,6 +24,4 @@ https://www.youtube.com/watch?v=LqekSSrwqQo&t=194s
 Part II (Decoding text from video)
 https://www.youtube.com/watch?v=e4WDdVpFY44&t=40s
 
-Cheers 
-
-Arsh
+NOTE: Please note that as video-encoders reduced the size by manipulating data, I did save the video in mkv format. This basically stacked up images with no video-encoding thus our hidden data in the image-data is preserved as it is. 
