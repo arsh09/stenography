@@ -8,13 +8,13 @@ The basic concept is similar to hiding text in an image and/or in sound. The ima
 For retrieving the data back, a special set of characters are used. These characters were appended before and after the databytes before encoding the completed appended-data into the images. This makes decoding quite easy. 
 
 Requirements include:
--> OpenCV\n
--> PIL
--> moviepy
--> natsort
--> glob
--> numpy 
--> optparse
+1 - OpenCV
+2 - PIL
+3 - moviepy
+4 - natsort
+5 - glob
+6 - numpy 
+7 - optparse
 
 For simple demo, one can follow this youtube video to see how to make this script work with different system arguments 
 
