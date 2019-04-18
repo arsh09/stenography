@@ -3,8 +3,12 @@ This python script hides (encode) large amount of text in video files and then d
 
 As for learning stenography and encoding/decoding large text files in the video (as oppose to an image, which is very normal), I started writing this Python script.
 
+The basic concept is similar to hiding text in an image and/or in sound. The image data is taken into its binary form and the last bit of each byte of any channel data (i.e. Red, Green, Blue) of image in the data is replaced by the data that is to be hidden in the image. For this, the data was also converted into its binary form. For not changing the 'look' of each image, we can decide to hide the data-bits into the image only if the last byte is less than certain value. Note that, a byte data is between (0x0 to 0xF in HEX). 
+
+For retrieving the data back, a special set of characters are used. These characters were appended before and after the databytes before encoding the completed appended-data into the images. This makes decoding quite easy. 
+
 Requirements include:
--> OpenCV
+-> OpenCV\n
 -> PIL
 -> moviepy
 -> natsort
